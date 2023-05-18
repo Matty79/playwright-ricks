@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Start the shopping app
-      run: ./shopping-store-linux-amd64 &
+      run: chmod +x ./shopping-store-linux-amd64 && ./shopping-store-linux-amd64 &
     - name: Install dependencies
       run: npm ci
     - name: Run Playwright tests
