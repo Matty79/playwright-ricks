@@ -1,8 +1,8 @@
 export const deliveryDetails = {
     firstName: "Matt",
     lastName: "Vickers",
-    street: "my road",
+    street: "my street",
     city: "london",
     postcode: "my postcode",
-    country: "Uruguay"
+    country: "United Kingdom"
 }
